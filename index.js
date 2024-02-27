@@ -56,11 +56,14 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+  return fs.writeFileSync(path.join(process.cwd(),fileName),data)
 }
 
 // function to initialize program
 function init() {
-
+  inquirer.prompt(questions).then((answers)=>{
+    writeToFile("template.md", generateMarkdown({ ...answers })) 
+  })
 }
 
 // function call to initialize program
