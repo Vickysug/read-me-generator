@@ -42,3 +42,9 @@ node index.js
 * Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
 
 * Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+
+## Video walkthrough of finished product
+
+Walkthrough video of README Generator App:
+
+https://drive.google.com/file/d/1Qp9-knWOuYiHRQBBN2uHBgIpsI0qQP-h/view?usp=sharing
